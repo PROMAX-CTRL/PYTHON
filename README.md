@@ -1,5 +1,3 @@
-# Book List Tracker and Expense Tracker
-
 ## Book List Tracker
 A Python program that allows users to add, view, search, and delete books stored in a CSV file. It demonstrates the use of file handling, data validation, and basic CRUD operations.
 
@@ -43,3 +41,42 @@ python EXPENSE TRACKER.py
 - Exception handling  
 - Input validation  
 - Basic mathematical operations  
+
+# Weekly Recipe Planner
+
+A Python program that manages recipes, ingredients, and user meal plans.  
+It allows users to register, log in, create and edit recipes, plan meals for the week, and generate shopping lists automatically from their planned meals.
+
+## Features
+- Add, edit, view, and delete recipes  
+- Store ingredients with quantities and units for each recipe  
+- User registration and login system  
+- Weekly meal planning for each user  
+- Generate a shopping list based on planned meals  
+- Search recipes by name or ingredient  
+- Save and load data from CSV files  
+
+## How to Run
+```
+python recipe_planner.py
+```
+
+## Files Used
+- PROCESS.CSV: Stores recipe details (ID, name, cuisine, serves, and process)  
+- INGREDIENTS.CSV: Stores ingredients linked to each recipe  
+- users.csv: Stores user credentials and their weekly meal plans  
+
+## Concepts Used
+- CSV file handling  
+- Data validation and error handling  
+- Functions and modular programming  
+- User authentication logic  
+- Lists, dictionaries, and loops  
+
+## Skills Demonstrated
+- Python scripting  
+- File I/O (CSV)  
+- Data management and persistence  
+- Menu-driven program design  
+- Input validation and error handling  
+
