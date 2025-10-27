@@ -1,5 +1,12 @@
+# Python Projects
+
+This repository contains a collection of Python projects that demonstrate concepts such as file handling, data validation, error handling, and user interaction.
+
+---
+
 ## Book List Tracker
-A Python program that allows users to add, view, search, and delete books stored in a CSV file. It demonstrates the use of file handling, data validation, and basic CRUD operations.
+A Python program that allows users to add, view, search, and delete books stored in a CSV file.  
+It demonstrates the use of file handling, data validation, and basic CRUD operations.
 
 ### Features
 - Add books with title, author, and description  
@@ -22,7 +29,8 @@ python BOOK LIST.py
 ---
 
 ## Expense Tracker
-A command-line application that tracks and summarizes weekly expenses. It calculates totals, averages, and identifies the days with the highest and lowest expenses.
+A command-line application that tracks and summarizes weekly expenses.  
+It calculates totals, averages, and identifies the days with the highest and lowest expenses.
 
 ### Features
 - Enter daily expenses for each day of the week  
@@ -42,12 +50,13 @@ python EXPENSE TRACKER.py
 - Input validation  
 - Basic mathematical operations  
 
-# Weekly Recipe Planner
+---
 
+## Weekly Recipe Planner
 A Python program that manages recipes, ingredients, and user meal plans.  
 It allows users to register, log in, create and edit recipes, plan meals for the week, and generate shopping lists automatically from their planned meals.
 
-## Features
+### Features
 - Add, edit, view, and delete recipes  
 - Store ingredients with quantities and units for each recipe  
 - User registration and login system  
@@ -56,27 +65,28 @@ It allows users to register, log in, create and edit recipes, plan meals for the
 - Search recipes by name or ingredient  
 - Save and load data from CSV files  
 
-## How to Run
+### How to Run
 ```
 python recipe_planner.py
 ```
 
-## Files Used
+### Files Used
 - PROCESS.CSV: Stores recipe details (ID, name, cuisine, serves, and process)  
 - INGREDIENTS.CSV: Stores ingredients linked to each recipe  
 - users.csv: Stores user credentials and their weekly meal plans  
 
-## Concepts Used
+*These CSV files will be created automatically when you run the program for the first time if they do not already exist.*
+
+### Concepts Used
 - CSV file handling  
 - Data validation and error handling  
 - Functions and modular programming  
 - User authentication logic  
 - Lists, dictionaries, and loops  
 
-## Skills Demonstrated
+### Skills Demonstrated
 - Python scripting  
 - File I/O (CSV)  
 - Data management and persistence  
 - Menu-driven program design  
 - Input validation and error handling  
-
